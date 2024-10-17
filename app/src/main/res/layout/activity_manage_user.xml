@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".admin.ManageUserActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2196F3"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:layout_width="291dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="QUẢN LÝ TÀI KHOẢN"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:drawableRight="@drawable/_844432_magnifier_search_zoom_icon"
+            android:paddingHorizontal="10dp"
+
+            />
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_add"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:backgroundTint="#2196F3"-->
+<!--        android:text="THÊM TÀI KHOẢN MỚI MỚI"-->
+<!--        android:textSize="18sp" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" />
+
+
+</LinearLayout>

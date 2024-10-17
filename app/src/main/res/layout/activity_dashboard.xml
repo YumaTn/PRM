@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin.DashboardActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRANG QUẢN LÝ"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giao Thông Vận Tải"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_category"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape"
+            android:text="Thể LOẠI"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_toy"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/shape"
+            android:text="ĐỒ CHƠI"
+            android:textColor="#0059FF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_user"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape"
+            android:text="TÀI KHOẢN"
+            android:textColor="#6A05B2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:drawableTop="@drawable/baseline_backspace_24"
+            android:text="Thoát"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

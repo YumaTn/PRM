@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên tài khoản: "
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NV001"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:id="@+id/txt_fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Văn B"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quyền: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:id="@+id/txt_role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADMIN"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:drawableBottom="@drawable/baseline_create_24" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:drawableBottom="@drawable/baseline_delete_24"
+                android:layout_marginLeft="20dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
